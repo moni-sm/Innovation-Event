@@ -225,7 +225,7 @@ body {
 }
 .venue-card {
   flex: 1;
-  min-width: 250px;
+  min-width: 200px;
   background: #fff;
   padding: 25px;
   border-radius: 15px;
