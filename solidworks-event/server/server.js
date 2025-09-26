@@ -69,7 +69,7 @@ app.post("/api/register", async (req, res) => {
         <p><b>Email:</b> ${email}</p>
         <p><b>Organization:</b> ${organization}</p>
         <p><b>Designation:</b> ${designation}</p>
-        <p><b>Time:</b> ${new Date().toLocaleString()}</p>
+       
       `
     };
     await transporter.sendMail(mailOptions);
@@ -95,7 +95,7 @@ app.get("/api/download-excel", async (req, res) => {
       { header: "Email", key: "email", width: 25 },
       { header: "Organization", key: "organization", width: 25 },
       { header: "Designation", key: "designation", width: 25 },
-      { header: "Timestamp", key: "timestamp", width: 25 },
+     
     ];
 
     registrations.forEach(reg => {
@@ -105,7 +105,7 @@ app.get("/api/download-excel", async (req, res) => {
         email: reg.email,
         organization: reg.organization,
         designation: reg.designation,
-        timestamp: reg.timestamp.toLocaleString()
+        
       });
     });
 
