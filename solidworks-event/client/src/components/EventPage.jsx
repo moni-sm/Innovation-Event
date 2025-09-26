@@ -148,7 +148,7 @@ export default function EventPage() {
                 <div className="hero-right">
                     <img src={DSBanner} alt="Event Banner" />
                     <div className="hero-content-desc">
-                        SOLIDWORKS 2026 is coming to India! Be among the first to experience what’s new.
+                        SOLIDWORKS 2026 is coming to India! Be among the first to experience what’s new. Discover the evolution of intelligent design with the launch of SOLIDWORKS 2026, built to accelerate design innovation through tools for manufacturing, AI-powered design, real-time simulation, improved performance, and tighter integration with the 3DEXPERIENCE cloud platform.
                     </div>
                 </div>
             </section>
