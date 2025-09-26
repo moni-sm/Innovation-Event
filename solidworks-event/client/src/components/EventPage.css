@@ -239,7 +239,7 @@ body {
 }
 .venue-card img {
   width: 100%;
-  max-height: 250px;     /* limit image height */
+  max-height: 300px;     /* limit image height */
   object-fit: cover;     /* crop nicely if aspect ratio differs */
   border-radius: 10px;
   margin-bottom: 12px;
