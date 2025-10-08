@@ -6,6 +6,8 @@ import DSLogo from "../assets/DSLogo.png";
 import DSBanner from "../assets/DS.png";
 import VenueImage from "../assets/facadenight.jpg";
 import SolidCAMLogo from "../assets/SolidCAM SponserLogo.png";
+import KeyFocusDomains from "../assets/Key Focus Domains.jpg"
+
 
 export default function EventPage() {
   const [countdown, setCountdown] = useState({
@@ -19,7 +21,7 @@ export default function EventPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const formRef = useRef(null);
-  const API_URL = "http://localhost:5000"; // Backend URL
+  const API_URL = "https://solid-works-bengaluru.onrender.com"; // Backend URL
   const navigate = useNavigate(); // Added
 
   // Countdown logic
@@ -181,13 +183,7 @@ export default function EventPage() {
 
         <div className="hero-right">
           <img src={DSBanner} alt="Event Banner" />
-          <div className="hero-content-desc">
-            SOLIDWORKS 2026 is coming to India! Be among the first to experience what’s new.
-            Discover the evolution of intelligent design with the launch of SOLIDWORKS 2026, built to
-            accelerate design innovation through tools for manufacturing, AI-powered design,
-            real-time simulation, improved performance, and tighter integration with the 3DEXPERIENCE
-            cloud platform.
-          </div>
+          <img src={KeyFocusDomains} alt="Key-Focus Domains" />
         </div>
       </section>
 
